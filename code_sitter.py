@@ -69,6 +69,11 @@ def main(config_file):
                     else:
                         print "Unknown recipe '%s', skipping..."%recipe
         print "\n\n *** All builds are successful ***\n"
+
+        print "Final cleaning:"
+        for project in projects:
+            name = project['name']
+            subcommand("Deleting %s"%name, ['rm', '-rf', name], current_path, "  ")
         sys.exit(0)
     except Exception as e:
         print "Invalid configuration file '%s': %s\n"%(config_file, str(e))
