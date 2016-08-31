@@ -3,3 +3,4 @@
 - logging feature allowing log level and file logging
 - support tests out of qemu on real platforms
 - add config option to clean or not on failure
+- improve README
