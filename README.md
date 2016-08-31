@@ -34,4 +34,4 @@ Author: Vincent Siles
 
 License: MIT
 
-Code Review Tool: Review board
+Code Review Tool: Review board version 2.5.6.1
