@@ -1,0 +1,4 @@
+REVIEWBOARD_URL = "http://vsiles-test.com"
+REPOSITORY = "code-sitter"
+BRANCH = "master"
+LAND_DEST_BRANCH = "master"
