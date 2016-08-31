@@ -33,3 +33,5 @@ Config file should be set as follow:
 Author: Vincent Siles
 
 License: MIT
+
+Code Review Tool: Review board
